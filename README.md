@@ -33,4 +33,4 @@ Once you installed everything you need, you just want to
 - (3) Try to send commands you just found using nRFconnect app.
 (4) rinse and repeat, and enjoy!
 ## What I've found
-Results are incoming once I have time to format it. I need to eat right now.
+
