@@ -1,4 +1,4 @@
-# BLE_LED_strip
+# BLE_LED_strip introduction
 A relatively short reverse engineering of a 12V LED strip controller based on (a powerfull) XC610 chip.
 
 Controlling LED strip is super cool, but being forced to use an app is less cool.
@@ -11,7 +11,8 @@ I used some tutorials and reports from other people that succeeded to hack this 
 So this repo put together the informations and what I found on this particular device.
 
 ## The BLE controller
-![ble](https://github.com/NotACoin/BLE_LED_strip/assets/60425329/dacff98c-628c-4aa5-95a9-00eece7f71b4)
+![ble](https://github.com/NotACoin/BLE_LED_strip/assets/60425329/f89ab1e7-64a5-41d1-937f-345e4480ba07)
+
 The datasheet of the XC610 is in the repo. It's always nice to have access to it, so thank you dear manufacturer.
 One can notice that there is RX/TX and BOOT pins accessible, and only 3 of the 5(!) PWM pins are used.
 This controller is used a lot for this application, a great video show in more details the same circuit, 
