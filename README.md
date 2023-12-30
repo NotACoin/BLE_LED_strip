@@ -28,8 +28,9 @@ I will use this app to communicate with the controller. If you know an other one
 - To analyse the file, you'll need wireshark or other software, but wireshark is good. I followed this !(other article from medium.com](https://urish.medium.com/reverse-engineering-a-bluetooth-lightbulb-56580fcb7546) which is about reverse-engineering a BLE-lightbulb.
 ## The simple process
 Once you installed everything you need, you just want to 
-(1) use the "official" app, like turning the led on/off, slecting color...Don't send too much command if you know nothing about wireshark like me.
-(2) export the bluetooth logs to your computer and open it with wireshark
-(3) Try to send commands you just found using nRFconnect app.
+- (1) use the "official" app, like turning the led on/off, slecting color...Don't send too much command if you know nothing about wireshark like me.
+- (2) export the bluetooth logs to your computer and open it with wireshark
+- (3) Try to send commands you just found using nRFconnect app.
 (4) rinse and repeat, and enjoy!
-
+## What I've found
+Results are incoming once I have time to format it. I need to eat right now.
