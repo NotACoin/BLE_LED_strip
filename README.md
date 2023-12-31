@@ -13,10 +13,11 @@ So this repo put together the informations and what I found on this particular d
 ## The BLE controller
 ![ble](https://github.com/NotACoin/BLE_LED_strip/assets/60425329/f89ab1e7-64a5-41d1-937f-345e4480ba07)
 
-The datasheet of the XC610 is in the repo. It's always nice to have access to it, so thank you dear manufacturer.
+The datasheet of the XC610 chip is in the repo.
 One can notice that there is RX/TX and BOOT pins accessible, and only 3 of the 5(!) PWM pins are used.
 This controller is used a lot for this application, a great video show in more details the same circuit, 
 with slightly different design: https://www.youtube.com/watch?v=uWlzulQFb98
+The 3.3V regulator is a HT7133-1 30mA Low Power LDO from Holtek.
 ## The android apps
 - One can just use the happylighting app (https://play.google.com/store/apps/details?id=com.xiaoyu.hlight). 
 It work really nice, and you can mix colors, blink, or have smooth gradients and even get it responsive to sound.
@@ -33,4 +34,5 @@ Once you installed everything you need, you just want to
 - (3) Try to send commands you just found using nRFconnect app.
 (4) rinse and repeat, and enjoy!
 ## What I've found
-
+Command | Turn On | Turn Off
+Bytes array | CC2333 | CC2433
