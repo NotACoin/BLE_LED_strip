@@ -34,5 +34,6 @@ Once you installed everything you need, you just want to
 - (3) Try to send commands you just found using nRFconnect app.
 (4) rinse and repeat, and enjoy!
 ## What I've found
-Command | Turn On | Turn Off
-Bytes array | CC2333 | CC2433
+| Command | Turn On | Turn Off |
+| ---|---|---|
+| Bytes array | CC2333 | CC2433 |
