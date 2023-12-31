@@ -43,6 +43,6 @@ You can choose the colors: send 56RRGGBB00F0AA. RR is red, GG is green, BB is bl
 You can make some pulses by sending BB2XYY44. 
 YY correspond to speed, 00 is fast and FF is very slow.
 X correspond to the following patterns:
-|4|5|6|7|8|9| A | B | C | D | E | F | 
-|---|---|---|
-|white|smooth R-V-B|R|G|B|G|B-G|R-B|R-G|White|Magenta|Turquoise?|
+| 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F | 
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| white | smooth R-V-B | R | G | B | G | B-G | R-B | R-G | White | Magenta | Turquoise? |
