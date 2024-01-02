@@ -1,7 +1,7 @@
 # BLE_LED_strip introduction
 A relatively short reverse engineering of a 12V LED strip controller based on (a powerfull) XC610 chip.
 
-Controlling LED strip is super cool, but being forced to use an app is less cool.
+Controlling LED strip is cool, but being forced to use an app is not.
 Fortunatly, reversing-engineering is accessible, you just need:
 - A smartphone with developer option and bluetooth debugging enabled
 - A LED controller (the "device") with its LED strip
@@ -11,7 +11,7 @@ I used some tutorials and reports from other people that succeeded to hack this 
 So this repo put together the informations and what I found on this particular device.
 
 ## The BLE controller
-![ble](https://github.com/NotACoin/BLE_LED_strip/assets/60425329/f89ab1e7-64a5-41d1-937f-345e4480ba07)
+![ble](https://github.com/NotACoin/BLE_LED_strip/assets/60425329/fe24f893-905c-4afc-ad50-56d5df9728dc)
 
 The datasheet of the XC610 chip is in the repo.
 One can notice that there is RX/TX and BOOT pins accessible, and only 3 of the 5(!) PWM pins are used.
@@ -25,7 +25,7 @@ I will use this app to communicate with the controller. If you know an other one
 - nRF connect app, I will use it to send custom command to the controller.
 ## adb and wireshark
 - A usefull ressource to get the log of the bluetooth communications from your phone, just follow what it say.
-![medium.com post to get bluetooth logs from your android phone](https://medium.com/@charlie.d.anderson/how-to-get-the-bluetooth-host-controller-interface-logs-from-a-modern-android-phone-d23bde00b9fa)  
+(medium.com post to get bluetooth logs from your android phone](https://medium.com/@charlie.d.anderson/how-to-get-the-bluetooth-host-controller-interface-logs-from-a-modern-android-phone-d23bde00b9fa)  
 - To analyse the file, you'll need wireshark or other software, but wireshark is good. I followed this !(other article from medium.com](https://urish.medium.com/reverse-engineering-a-bluetooth-lightbulb-56580fcb7546) which is about reverse-engineering a BLE-lightbulb.
 ## The simple process
 Once you installed everything you need, you just want to 
