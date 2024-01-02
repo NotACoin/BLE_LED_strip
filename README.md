@@ -38,9 +38,11 @@ Once you installed everything you need, you just want to
 | ---|---|---|
 | Bytes array | CC2333 | CC2433 |
 
-You can choose the colors: send 56RRGGBB00F0AA. RR is red, GG is green, BB is blue. Red would be 56FF000000F0AA, 5600FF0000F0AA for green. 56FFFFFF00F0AA is white.
+You can choose the colors: send 56-RR-GG-BB-00-F0-AA. RR is red, GG is green, BB is blue. 
+Red would be 56-FF-00-00-00-F0-AA, 56-00-FF-00-00-F0-AA for green. 
+56-FF-FF-FF-00-F0-AA is white.
 
-You can make some pulses by sending BB2XYY44. 
+You can make some pulses by sending BB-2X-YY-44. 
 YY correspond to speed, 00 is fast and FF is very slow.
 X correspond to the following patterns:
 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F | 
